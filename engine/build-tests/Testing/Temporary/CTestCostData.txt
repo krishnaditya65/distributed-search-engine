@@ -1,0 +1,12 @@
+test_analysis 1 0.351353
+test_bitmap 1 0.34305
+test_wal 1 0.36585
+test_storage 1 0.432823
+test_scoring 1 0.34958
+test_vector 1 0.83491
+test_aggregation 1 0.438808
+test_index 1 0.343873
+test_segment 1 0.35215
+test_shard 1 0.418498
+test_edge_cases 1 0.349754
+---

@@ -1,0 +1,8 @@
+{"doc_id": "book-1", "title": "The Rust Programming Language", "brand": "No Starch Press", "price": 40, "embedding": [0.9, 0.1, 0.0, 0.2]}
+{"doc_id": "book-2", "title": "Designing Data-Intensive Applications", "brand": "O'Reilly", "price": 55, "embedding": [0.2, 0.8, 0.1, 0.3]}
+{"doc_id": "book-3", "title": "The Go Programming Language", "brand": "Addison-Wesley", "price": 45, "embedding": [0.85, 0.15, 0.05, 0.25]}
+{"doc_id": "book-4", "title": "Database Internals", "brand": "O'Reilly", "price": 50, "embedding": [0.3, 0.75, 0.15, 0.2]}
+{"doc_id": "book-5", "title": "Distributed Systems for Fun and Profit", "brand": "Self-Published", "price": 0, "embedding": [0.25, 0.7, 0.2, 0.35]}
+{"doc_id": "book-6", "title": "C++ Concurrency in Action", "brand": "Manning", "price": 48, "embedding": [0.8, 0.2, 0.1, 0.15]}
+{"doc_id": "book-7", "title": "Site Reliability Engineering", "brand": "O'Reilly", "price": 42, "embedding": [0.35, 0.6, 0.3, 0.25]}
+{"doc_id": "book-8", "title": "The Rust Programming Language Second Edition", "brand": "No Starch Press", "price": 42, "embedding": [0.92, 0.12, 0.02, 0.18]}

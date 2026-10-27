@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_vector.dir/src/vector/hnsw_test.cpp.o -o test_vector  libdse_core.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdse_proto.a CMakeFiles/dse_proto.dir/genproto/engine.pb.cc.o CMakeFiles/dse_proto.dir/genproto/engine.grpc.pb.cc.o
+/usr/bin/ranlib libdse_proto.a

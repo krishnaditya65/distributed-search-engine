@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_segment.dir/src/segment/segment_test.cpp.o -o test_segment  libdse_core.a

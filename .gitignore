@@ -1,0 +1,8 @@
+engine/build/
+bin/
+*.o
+*.a
+*.dylib
+*.so
+.DS_Store
+/tmp/

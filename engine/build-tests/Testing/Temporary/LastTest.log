@@ -1,0 +1,218 @@
+Start testing: Oct 04 00:42 IST
+----------------------------------------------------------
+1/11 Testing: test_analysis
+1/11 Test: test_analysis
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_analysis"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_analysis" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+analyzer tests passed
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"test_analysis" end time: Oct 04 00:42 IST
+"test_analysis" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: test_bitmap
+2/11 Test: test_bitmap
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_bitmap"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_bitmap" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+TestBasics passed
+TestCardinality passed
+TestBitsetContainer passed
+TestSetOpsHandComputed passed
+TestSetOpsRandomized passed
+TestSerializationRoundTrip passed
+roaring bitmap tests passed
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"test_bitmap" end time: Oct 04 00:42 IST
+"test_bitmap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: test_wal
+3/11 Test: test_wal
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_wal"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_wal" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+wal tests passed
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"test_wal" end time: Oct 04 00:42 IST
+"test_wal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: test_storage
+4/11 Test: test_storage
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_storage"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_storage" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+mmap file tests passed
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"test_storage" end time: Oct 04 00:42 IST
+"test_storage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: test_scoring
+5/11 Test: test_scoring
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_scoring"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_scoring" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+bm25 tests passed
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"test_scoring" end time: Oct 04 00:42 IST
+"test_scoring" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: test_vector
+6/11 Test: test_vector
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_vector"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_vector" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+TestSmallClusters passed
+TestDimMismatchThrows passed
+TestFewerThanKPoints passed
+TestMetricsDifferentRankings passed
+Average top-10 overlap with brute force (metric=0): 1.00
+TestLargeDatasetSortedAndSize(metric=0) passed
+Average top-10 overlap with brute force (metric=1): 0.99
+TestLargeDatasetSortedAndSize(metric=1) passed
+hnsw tests passed
+<end of output>
+Test time =   0.83 sec
+----------------------------------------------------------
+Test Passed.
+"test_vector" end time: Oct 04 00:42 IST
+"test_vector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: test_aggregation
+7/11 Test: test_aggregation
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_aggregation"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_aggregation" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+TestComputeTerms passed
+TestComputeStats passed
+TestComputeStatsEmpty passed
+TestComputeHistogram passed
+TestComputeHistogramInvalidInterval passed
+aggregation tests passed
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"test_aggregation" end time: Oct 04 00:42 IST
+"test_aggregation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: test_index
+8/11 Test: test_index
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_index"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_index" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+TestBasicIndexAndLookup passed
+TestFieldLengthsAndAverage passed
+TestMultipleFieldsIndependent passed
+inverted index tests passed
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"test_index" end time: Oct 04 00:42 IST
+"test_index" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: test_segment
+9/11 Test: test_segment
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_segment"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_segment" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+TestWriteOpenRoundTrip passed
+TestMergeDropsDeletedAndCombinesSegments passed
+segment tests passed
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"test_segment" end time: Oct 04 00:42 IST
+"test_segment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: test_shard
+10/11 Test: test_shard
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_shard"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_shard" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+TestCRUD passed
+TestBulk passed
+TestKeywordSearchAndBM25Ranking passed
+TestFiltersAndMatchAll passed
+TestPagination passed
+TestAggregations passed
+TestVectorAndHybridSearch passed
+TestFlushAndSearchAcrossSegments passed
+TestMergeReclaimsDeletedDocs passed
+TestCrashRecoveryViaWALReplay passed
+TestVectorIndexSurvivesRestart passed
+shard tests passed
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"test_shard" end time: Oct 04 00:42 IST
+"test_shard" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: test_edge_cases
+11/11 Test: test_edge_cases
+Command: "/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/test_edge_cases"
+Directory: /Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests
+"test_edge_cases" start time: Oct 04 00:42 IST
+Output:
+----------------------------------------------------------
+TestDocumentTypesAndValidation passed
+TestBitmapBoundariesDenseAndSerialization passed
+TestWalTornTailAndTruncate passed
+TestMMapMoveReadOnlyAndInvalidSizes passed
+TestInvertedIndexStatisticsAndBm25Edges passed
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"test_edge_cases" end time: Oct 04 00:42 IST
+"test_edge_cases" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 04 00:42 IST

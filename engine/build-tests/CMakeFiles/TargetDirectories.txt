@@ -1,0 +1,17 @@
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/dse_proto.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/dse_core.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/dse_engine.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_analysis.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_bitmap.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_wal.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_storage.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_scoring.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_vector.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_aggregation.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_index.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_segment.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_shard.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test_edge_cases.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/test.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/edit_cache.dir
+/Users/krishnaditya/Documents/required/ideas/projects/distributed-search-engine/engine/build-tests/CMakeFiles/rebuild_cache.dir
