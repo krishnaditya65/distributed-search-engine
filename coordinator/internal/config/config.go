@@ -72,6 +72,12 @@ type NodeConfig struct {
 	// ReplicationFactor is the default replication factor used for newly
 	// created indices.
 	ReplicationFactor int
+
+	// APIToken, if set, is required as "Authorization: Bearer <token>" on every API call except /health and /ui.
+	APIToken string
+
+	// SlowQueryMillis is the latency above which a search lands in the console slow-query log.
+	SlowQueryMillis int
 }
 
 // Load parses os.Args[1:] using a fresh *flag.FlagSet (never the global
@@ -105,6 +111,9 @@ func Load() NodeConfig {
 	shards := flagSet.Int("shards", 6, "default number of shards for newly created indices")
 	replicas := flagSet.Int("replicas", 2, "default replication factor for newly created indices")
 
+	apiToken := flagSet.String("api-token", os.Getenv("DSE_API_TOKEN"), "bearer token required on API calls (default: $DSE_API_TOKEN; empty = no auth)")
+	slowQueryMillis := flagSet.Int("slow-query-ms", 100, "searches slower than this are recorded in the slow-query log")
+
 	_ = flagSet.Parse(os.Args[1:])
 
 	id := strings.TrimSpace(*nodeID)
@@ -122,6 +131,8 @@ func Load() NodeConfig {
 		EngineNodes:       parseEngineNodes(*engineNodes),
 		NumShards:         *shards,
 		ReplicationFactor: *replicas,
+		APIToken:          strings.TrimSpace(*apiToken),
+		SlowQueryMillis:   *slowQueryMillis,
 	}
 }
 

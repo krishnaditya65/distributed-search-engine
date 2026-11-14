@@ -97,3 +97,12 @@ distributed-search-engine/
 
 Known simplifications, honest gaps, and the full "why" behind every design
 decision are documented in **[DOCUMENTATION.md](DOCUMENTATION.md)**.
+
+---
+
+## Web console (Seekr)
+
+The coordinator embeds a console: `http://127.0.0.1:8090/ui/` (search, indices, documents, query console) and `/ui/admin.html` (cluster, shards, maintenance, search performance, slow queries). Rebuild with `./scripts/build.sh` to pick up UI changes.
+
+- New endpoints: `GET /_cat/indices`, `GET /indices/{index}`, `GET /_cluster/nodes`, `POST /indices/{index}/_maintenance/{flush|merge}`, `GET /_console/stats`, `GET /_console/slow-queries`.
+- Auth: `-api-token` / `DSE_API_TOKEN` requires `Authorization: Bearer <token>` on every API call except `/health` and `/ui`. `-slow-query-ms` (default 100) sets the slow-query threshold.

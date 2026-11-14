@@ -70,6 +70,8 @@ func main() {
 
 	router := routing.NewRouter(node, pool)
 	mux := api.NewRouter(router)
+	console := api.NewConsole(router, cfg.APIToken, time.Duration(cfg.SlowQueryMillis)*time.Millisecond)
+	console.Mount(mux)
 
 	// /_cluster/join: an existing (ideally leader) node uses this to admit a
 	// new node into the raft cluster. Not part of the api package's
@@ -95,7 +97,7 @@ func main() {
 	})
 
 	slog.Info("coordinator HTTP API listening", "addr", cfg.HTTPAddr)
-	if err := http.ListenAndServe(cfg.HTTPAddr, mux); err != nil {
+	if err := http.ListenAndServe(cfg.HTTPAddr, console.Wrap(mux)); err != nil {
 		slog.Error("http server exited", "err", err)
 		os.Exit(1)
 	}
